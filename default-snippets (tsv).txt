@@ -1,0 +1,12 @@
+Name	Prefix
+Insert bold text	bold
+Insert code	code
+Insert fenced code block	fenced codeblock
+Insert heading	heading
+Insert horizontal rule	horizontal rule
+Insert image	image
+Insert italic text	italic
+Insert link	link
+Insert ordered list	ordered list
+Insert quoted text	quote
+Insert unordered list	unordered list

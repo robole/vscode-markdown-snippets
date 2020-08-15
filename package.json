@@ -1,0 +1,47 @@
+{
+  "name": "markdown-snippets",
+  "displayName": "Markdown Snippets",
+  "publisher": "robole",
+  "author": {
+    "name": "Rob O'Leary"
+  },
+  "description": "Markdown snippets for Extended Markdown syntax.",
+  "icon": "img/logo.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "bugs": {
+    "url": "https://github.com/robole/vscode-markdown-snippets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robole/vscode-markdown-snippets"
+  },
+  "license": "MIT",
+  "categories": [
+    "Snippets"
+  ],
+  "galleryBanner": {
+    "color": "#e51aff",
+    "theme": "light"
+  },
+  "keywords": [
+    "markdown",
+    "shortcuts"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "vsce package ."
+  },
+  "devDependencies": {
+    "vsce": "^1.78.0"
+  }
+}
