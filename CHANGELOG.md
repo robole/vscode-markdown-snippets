@@ -4,7 +4,14 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.1] - 2020-08-16
+## [0.2.0] - 2020-08-22
+
+### Added
+
+- Added more variations on "Insert table" snippet to create tables of different dimensions.
+- Added more detail to snippet to description in *README.md*.
+
+## [0.1.0] - 2020-08-16
 
 ### Added
 
