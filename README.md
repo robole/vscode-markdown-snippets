@@ -14,13 +14,15 @@ To insert a snippet, you can just type one of the prefixes, and you will be offe
 
 If you would like to have shortcuts associated with these snippets, install the complementary extension [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts).
 
-[![markdown shortcuts](/img/markdown-shortcuts-logo.png)](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts)
+<a href="https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts"><img src="img/markdown-shortcuts-logo.png" alt="markdown shorcuts logo" style="display:block;margin:0 auto"></a>
 
 I have included [a list of the built-in snippets](#default-snippets) below for reference. They are not documented in the VS Code docs.
 
 ## Extended Snippets
 
 View the [source file](https://github.com/robole/vscode-markdown-snippets/blob/master/snippets/snippets.code-snippets).
+
+For most of the snippets, if text is selected it is wrapped by the snippet. If no text is selected, the cursor is placed at a point in the snippet to enter text.
 
 | Name                   | Prefix        | Body                                                                                                                      |
 |------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -43,8 +45,9 @@ View the [source file](https://github.com/robole/vscode-markdown-snippets/blob/m
 | Insert 2x3 table       | 2x3table      | Insert a table with 2 rows and 3 columns. You can tab through each cell   to edit the text.                               |
 | Insert 3x3 table       | 3x3table      | Insert a table with 3 rows and 3 columns. You can tab through each cell   to edit the text.                               |
 | Insert 4x4 table       | 4x3table      | Insert a table with 4 rows and 3 columns. You can tab through each cell   to edit the text.                               |
-| Insert 5x5 table       | 5x3table      | Insert a table with 5 rows and 3 columns. You can tab through each cell   to edit the text.                               |
+| Insert 5x5 table       | 5x5table      | Insert a table with 5 rows and 5 columns. You can tab through each cell   to edit the text.                               |
 | Insert task list       | task list     | Insert  a task list with 2 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+
 ## Default Snippets
 
 This is just for reference. You **do not need to install this extension to use these**.

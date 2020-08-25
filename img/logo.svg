@@ -17,9 +17,9 @@
    version="1.1"
    width="400"
    height="400"
-   inkscape:export-filename="D:\Programming\Workspace\Javascript\VS Code\vscode-markdown-snippets\img\logo-large.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300"><metadata
+   inkscape:export-filename="D:\Programming\Workspace\Javascript\VS Code\vscode-markdown-snippets\img\logo.png"
+   inkscape:export-xdpi="100.08"
+   inkscape:export-ydpi="100.08"><metadata
      id="metadata46"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -42,8 +42,8 @@
      inkscape:window-y="-8"
      inkscape:window-x="-8"
      inkscape:cy="312.5"
-     inkscape:cx="250"
-     inkscape:zoom="0.34235763"
+     inkscape:cx="168.41655"
+     inkscape:zoom="0.4841668"
      showgrid="false"
      id="namedview42"
      inkscape:window-height="837"
@@ -57,7 +57,7 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      inkscape:document-rotation="0" /><circle
-     style="opacity:1;fill:#e51aff;fill-opacity:0.615686;fill-rule:evenodd;stroke:none;stroke-width:8.61643;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     style="opacity:1;fill:#89009a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.61643;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
      id="path2151"
      cx="200"
      cy="200"
@@ -69,13 +69,13 @@
      rx="36.706257"
      ry="38.118034" /><text
      id="text862"
-     y="162.51494"
-     x="40.39838"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:90.0003px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+     y="170.17822"
+     x="29.370613"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.667px;line-height:100px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.09839;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
      xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-opacity:1"
-       y="162.51494"
-       x="40.39838"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.667px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.09839;stroke-opacity:1"
+       y="170.17822"
+       x="29.370613"
        id="tspan860"
        sodipodi:role="line">..==&gt;</tspan></text><text
      id="text882"

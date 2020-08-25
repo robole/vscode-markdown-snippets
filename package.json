@@ -7,9 +7,9 @@
   },
   "description": "Markdown snippets for Extended Markdown syntax.",
   "icon": "img/logo.png",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
-    "vscode": "^1.48.0"
+    "vscode": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/robole/vscode-markdown-snippets/issues"
@@ -23,12 +23,14 @@
     "Snippets"
   ],
   "galleryBanner": {
-    "color": "#e51aff",
-    "theme": "light"
+    "color": "#89009a",
+    "theme": "dark"
   },
   "keywords": [
     "markdown",
-    "shortcuts"
+    "shortcuts",
+    "snippets",
+    "readme"
   ],
   "contributes": {
     "snippets": [
