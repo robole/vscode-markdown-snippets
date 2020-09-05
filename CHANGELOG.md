@@ -4,6 +4,12 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.4.0] - 2020-09-05
+
+### Changed
+
+- Updated README with simpler information and recommendation for Snippets Ranger.
+
 ## [0.3.0] - 2020-08-25
 
 ### Changed

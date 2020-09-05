@@ -5,9 +5,9 @@
   "author": {
     "name": "Rob O'Leary"
   },
-  "description": "Markdown snippets for Extended Markdown syntax.",
+  "description": "Extended Markdown snippets.",
   "icon": "img/logo.png",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": {
     "vscode": "^1.0.0"
   },
