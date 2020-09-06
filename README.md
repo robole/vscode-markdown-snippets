@@ -2,7 +2,7 @@
 
 ![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=made%20for&message=VS%20Code&color=0000ff)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/robole.markdown-snippets?logo=visual-studio-code&color=ffa500)
-![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=11KB&color=008000)
+![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=10KB&color=008000)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/robole.markdown-snippets?logo=visual-studio-code&color=yellow)
 ![Built with](https://img.shields.io/static/v1?label=built%20with&message=good%20vibrations&color=violet)
 
@@ -48,4 +48,8 @@ For most of the snippets, if text is selected it is wrapped by the snippet. If n
 | Insert 3x3 table       | 3x3table      | Insert a table with 3 rows and 3 columns. You can tab through each cell   to edit the text.                               |
 | Insert 4x4 table       | 4x3table      | Insert a table with 4 rows and 3 columns. You can tab through each cell   to edit the text.                               |
 | Insert 5x5 table       | 5x5table      | Insert a table with 5 rows and 5 columns. You can tab through each cell   to edit the text.                               |
-| Insert task list       | task list     | Insert  a task list with 2 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+| Insert task list       | task     | Insert  a task list with 1 task.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+| Insert task list 2     | task2   | Insert  a task list with 2 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+| Insert task list 3     | task3   | Insert  a task list with 3 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+| Insert task list 4     | task4   | Insert  a task list with 4 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+| Insert task list 5     | task5   | Insert  a task list with 5 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |

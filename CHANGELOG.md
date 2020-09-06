@@ -6,6 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.4.0] - 2020-09-05
 
+### Added
+
+- Add more task snippets.
+
+### Changed
+
+- Changed "Insert task" snippet to produce a task list with 1 item, rather than 2.
+
+## [0.4.0] - 2020-09-05
+
 ### Changed
 
 - Updated README with simpler information and recommendation for Snippets Ranger.
