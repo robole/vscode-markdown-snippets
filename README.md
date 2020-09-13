@@ -8,11 +8,11 @@
 
 ![insert table](/img/table.gif)
 
-If you would like to have shortcuts associated with these snippets, install the complementary extension [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts).
+If you would like to have shortcuts associated with all markdown snippets, install the complementary extension [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts).
 
 <a href="https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts"><img src="img/markdown-shortcuts-logo.png" alt="markdown shorcuts logo" style="display:block;margin:0 auto"></a>
 
-**VS Code has built-in snippets for Markdown**, you can view the [source file](https://github.com/microsoft/vscode/blob/f74e473238aca7b79c08be761d99a0232838ca4c/extensions/markdown-basics/snippets/markdown.code-snippets), or install [Snippets Ranger](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) for a more user-friendly view of the snippets.
+**VS Code has built-in snippets for Markdown**, you can view the [source file](https://github.com/microsoft/vscode/blob/f74e473238aca7b79c08be761d99a0232838ca4c/extensions/markdown-basics/snippets/markdown.code-snippets), or install [Snippets Ranger](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) for a more user-friendly view of all snippets.
 
 <a href="https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger"><img src="img/snippets-ranger-logo.png" alt="snippets ranger logo" style="display:block;margin:0 auto"></a>
 
@@ -24,17 +24,8 @@ To insert a snippet, you can just type one of the prefixes in a markdown file, a
 
 You can view the [source file](https://github.com/robole/vscode-markdown-snippets/blob/master/snippets/snippets.code-snippets), or see the summary in the table below.
 
-For most of the snippets, if text is selected it is wrapped by the snippet. If no text is selected, the cursor is placed at a point in the snippet to enter text.
-
 | Name                   | Prefix        | Body                                                                                                                      |
 |------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------|
-| Insert heading level 1 | heading1      | Makes selected text a level 1 heading.                                                                                    |
-| Insert heading level 2 | heading2      | Makes selected text a level 2 heading.                                                                                    |
-| Insert heading level 3 | heading3      | Makes selected text a level 3 heading.                                                                                    |
-| Insert heading level 4 | heading4      | Makes selected text a level 4 heading.                                                                                    |
-| Insert heading level 5 | heading5      | Makes selected text a level 5 heading.                                                                                    |
-| Insert heading level 6 | heading6      | Makes selected text a level 6 heading.                                                                                    |
-| Insert strikethrough   | strikethrough | Makes selected text a strikethrough fragment.                                                                             |
 | Insert table           | table         | Insert a table with 2 rows and 3 columns. You can tab through each cell   to edit the text.                               |
 | Insert 2x1 table       | 2x1table      | Insert a table with 2 rows and 1 column. You can tab through each cell to   edit the text.                                |
 | Insert 3x1 table       | 3x1table      | Insert a table with 3 rows and 1 column. You can tab through each cell to   edit the text.                                |

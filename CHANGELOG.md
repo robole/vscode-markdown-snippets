@@ -4,6 +4,12 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.0] - 2020-09-13
+
+### Removed
+
+- Removed the snippets for headings and strikethrough. The same snippets were added to VS Code in v1.49.0.
+
 ## [0.4.0] - 2020-09-05
 
 ### Added

@@ -1,39 +1,4 @@
 {
-  "Insert heading level 1": {
-    "prefix": "heading1",
-    "body": "# ${1:${TM_SELECTED_TEXT}}",
-    "description": "Insert heading level 1"
-  },
-  "Insert heading level 2": {
-    "prefix": "heading2",
-    "body": "## ${1:${TM_SELECTED_TEXT}}",
-    "description": "Insert heading level 2"
-  },
-  "Insert heading level 3": {
-    "prefix": "heading3",
-    "body": "### ${1:${TM_SELECTED_TEXT}}",
-    "description": "Insert heading level 3"
-  },
-  "Insert heading level 4": {
-    "prefix": "heading4",
-    "body": "#### ${1:${TM_SELECTED_TEXT}}",
-    "description": "Insert heading level 4"
-  },
-  "Insert heading level 5": {
-    "prefix": "heading5",
-    "body": "##### ${1:${TM_SELECTED_TEXT}}",
-    "description": "Insert heading level 5"
-  },
-  "Insert heading level 6": {
-    "prefix": "heading6",
-    "body": "###### ${1:${TM_SELECTED_TEXT}}",
-    "description": "Insert heading level 6"
-  },
-  "Insert strikethrough": {
-    "prefix": "strikethrough",
-    "body": "~~${1:${TM_SELECTED_TEXT}}~~",
-    "description": "Insert strikethrough"
-  },
   "Insert task list": {
     "prefix": "task",
     "body": ["- [${1| ,x|}] ${2:text}", "${0}"],
