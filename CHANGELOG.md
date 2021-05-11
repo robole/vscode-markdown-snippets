@@ -4,6 +4,12 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.7.2] - 2020-05-11
+
+### Changed
+
+- Small edits on README.
+
 ## [0.7.1] - 2020-05-11
 
 ### Fix
