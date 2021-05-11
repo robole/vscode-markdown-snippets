@@ -77,22 +77,22 @@ Run the command `Preferences: Open Settings (UI)` to open the keyboard shortcuts
 
 ```JSON
 [
-  // ...
 
  	{
   	"key": "ctrl+t",
   	"mac": "cmd+t",
   	"command": "editor.action.insertSnippet",
-    "when": "!editorReadonly && editorLangId == markdown",
-    "args": {
-      "langId": "markdown",
-    	"name": "Insert task list"
+		"when": "!editorReadonly && editorLangId == markdown",
+		"args": {
+			"langId": "markdown",
+			"name": "Insert task list"
 		}
 	}
+
 ]
 ```
 
-The `args.name` property must match the snippet name.
+The `args.name` property <u>must exactly match</u> the snippet name.
 
 I created the extension [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts) to provide shortcuts for all markdown snippets if this is something you want. You can override my selections if you want, read the extension README for more info.
 
