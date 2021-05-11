@@ -7,7 +7,7 @@
   },
   "description": "Extended Markdown snippets.",
   "icon": "img/logo.png",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -28,9 +28,12 @@
   },
   "keywords": [
     "markdown",
-    "shortcuts",
     "snippets",
-    "readme"
+    "markdown snippets",
+    "extended markdown snippets",
+    "table",
+    "tasks",
+    "task list"
   ],
   "contributes": {
     "snippets": [

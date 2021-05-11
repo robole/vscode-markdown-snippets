@@ -1,28 +1,35 @@
-# Markdown Snippets
+<h1 align="center">
+  <br>
+    <img align="center" src="img/logo.png" width="200">
+  <br>
+	<br>
+  Markdown Snippets
+  <br>
+  <br>
+</h1>
+<h4 align="center">Extended Markdown snippets.</h4>
 
-![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=made%20for&message=VS%20Code&color=0000ff)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/robole.markdown-snippets?logo=visual-studio-code&color=ffa500)
-![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=10KB&color=008000)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/robole.markdown-snippets?logo=visual-studio-code&color=yellow)
-![Built with](https://img.shields.io/static/v1?label=built%20with&message=good%20vibrations&color=violet)
+<p align="center">
+<img src="https://img.shields.io/static/v1?logo=visual-studio-code&label=made%20for&message=VS%20Code&color=0000ff" alt="Made for VSCode">
+<img src="https://img.shields.io/visual-studio-marketplace/v/robole.markdown-snippets?logo=visual-studio-code&color=ffa500" alt="Visual Studio Marketplace Version">
+<img src="https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=11KB&color=008000"
+alt="Extension file size in bytes">
+<img src="https://img.shields.io/visual-studio-marketplace/r/robole.markdown-snippets?logo=visual-studio-code&color=yellow" alt="Visual Studio Marketplace Rating">
+<img src="https://img.shields.io/visual-studio-marketplace/d/robole.markdown-snippets?logo=visual-studio-code&color=blue" alt="downloads"/>
+<img src="https://img.shields.io/visual-studio-marketplace/i/robole.markdown-snippets?logo=visual-studio-code&color=blue" alt="installs"/>
+<img src="https://img.shields.io/static/v1?label=built%20with&message=good%20vibrations&color=purple" alt="Built with"/>
+<a href="https://ko-fi.com/roboleary"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange?logo=buy-me-a-coffee" alt="Buy me a coffee"></a>
+</p>
 
-![insert table](/img/table.gif)
+![insert table](img/table.gif)
 
-If you would like to have shortcuts associated with all markdown snippets, install the complementary extension [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts).
+## Activation
 
-<a href="https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts"><img src="img/markdown-shortcuts-logo.png" alt="markdown shorcuts logo" style="display:block;margin:0 auto"></a>
-
-**VS Code has built-in snippets for Markdown**, you can view the [source file](https://github.com/microsoft/vscode/blob/f74e473238aca7b79c08be761d99a0232838ca4c/extensions/markdown-basics/snippets/markdown.code-snippets), or install [Snippets Ranger](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) for a more user-friendly view of all snippets.
-
-<a href="https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger"><img src="img/snippets-ranger-logo.png" alt="snippets ranger logo" style="display:block;margin:0 auto"></a>
-
-## How do I use the snippets?
-
-To insert a snippet, you can just type one of the prefixes in a markdown file, and you will be offered a completion suggestion; or you can open the Command Palette (`Ctrl+Shift+P`) and run the command "Insert Snippet", which presents you with a list to choose from.
+The snippets are only active in the files associated with the Markdown [language identifier](https://code.visualstudio.com/docs/languages/identifiers).
 
 ## Snippets
 
-You can view the [source file](https://github.com/robole/vscode-markdown-snippets/blob/master/snippets/snippets.code-snippets), or see the summary in the table below.
+You can install the [Snippets Ranger](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) extension to view the list of snippets inside VS Code. The table below is a summary.
 
 | Name                   | Prefix        | Body                                                                                                                      |
 |------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -44,3 +51,57 @@ You can view the [source file](https://github.com/robole/vscode-markdown-snippet
 | Insert task list 3     | task3   | Insert  a task list with 3 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
 | Insert task list 4     | task4   | Insert  a task list with 4 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
 | Insert task list 5     | task5   | Insert  a task list with 5 tasks.   You can tab through item to set the status (complete/incomplete) and edit the   text. |
+
+## Installation
+
+1. The extension is listed in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=robole.markdown-snippets) and [Open VSX Marketplace](https://open-vsx.org/extension/robole/markdown-snippets) where you can download or install it directly.
+1. From the Command-line: Run the command `code --install-extension robole.markdown-snippets`.
+
+## FAQ
+
+### 1) Where do the standard markdown snippets come from?
+
+There is a set of snippets for the standard markdown syntax installed with VS Code as part of the built-in markdown extension. [This is the source file](https://github.com/microsoft/vscode/blob/94c9ea46838a9a619aeafb7e8afd1170c967bb55/extensions/markdown-basics/snippets/markdown.code-snippets).
+
+I recommend installing the [Snippets Ranger](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) extension if you want a simple way to view the built-in snippets.
+
+### 2) How do I use the snippets?
+
+To insert a snippet, you can just type one of the prefixes in a markdown file, and you will be offered a completion suggestion. The setting `Editor: Snippet Suggestions` controls whether snippets are shown with other suggestions and how they are sorted. By default, they are shown inline.
+
+Alternatively, you can open the Command Palette (`Ctrl+Shift+P`) and run the command "Insert Snippet", which presents you with a list to choose from.
+
+### 3) How do I add shortcuts for the snippets?
+
+Run the command `Preferences: Open Settings (UI)` to open the keyboard shortcuts config. Add an new object to the array such as this:
+
+```JSON
+[
+  // ...
+
+ 	{
+  	"key": "ctrl+t",
+  	"mac": "cmd+t",
+  	"command": "editor.action.insertSnippet",
+    "when": "!editorReadonly && editorLangId == markdown",
+    "args": {
+      "langId": "markdown",
+    	"name": "Insert task list"
+		}
+	}
+]
+```
+
+The `args.name` property must match the snippet name.
+
+I created the extension [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts) to provide shortcuts for all markdown snippets if this is something you want. You can override my selections if you want, read the extension README for more info.
+
+### 4) Where can I learn more about snippets?
+
+You can read my comprehensive guide on Snippets on FreeCodeCamp: [Visual Studio Code Snippets – the Definitive VS Code Snippet Guide for Beginners](https://www.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/). It's not just for beginners! 😉
+
+## Show gratitude
+
+If you are happy with the extension, please star the repo, and leave a review to help others find it. 🌟
+
+You can [buy me a coffee](https://ko-fi.com/roboleary) if you would like to support me to make more great open-source software and tutorials. ☕🙏

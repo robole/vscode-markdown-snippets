@@ -4,9 +4,29 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.5.0] - 2020-09-13
+## [0.7.0] - 2020-05-11
+
+### Changed
+
+- Changed README format.
+
+## [0.6.0] - 2020-09-13
 
 ### Removed
+
+- Removed the snippets for headings and strikethrough. The same snippets were added to VS Code in v1.49.0.
+
+## [0.5.0] - 2020-09-10
+
+### Added
+
+- Added more task snippets
+
+### Changed
+
+- Changed "Insert task" snippet to produce a task list with 1 item, rather than 2.
+
+### Added
 
 - Removed the snippets for headings and strikethrough. The same snippets were added to VS Code in v1.49.0.
 
