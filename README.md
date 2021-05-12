@@ -63,7 +63,7 @@ You can install the [Snippets Ranger extension](https://marketplace.visualstudio
 
 There is a set of snippets for the standard markdown syntax installed with VS Code as part of the built-in markdown extension. [This is the source file](https://github.com/microsoft/vscode/blob/94c9ea46838a9a619aeafb7e8afd1170c967bb55/extensions/markdown-basics/snippets/markdown.code-snippets).
 
-I recommend installing the [Snippets Ranger extension](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) extension if you want a simple way to view the built-in snippets.
+I recommend installing the [Snippets Ranger extension](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) if you want a simple way to view the built-in snippets.
 
 ### 2) How do I use the snippets?
 
@@ -92,7 +92,7 @@ Run the command `Preferences: Open Settings (UI)` to open the keyboard shortcuts
 ]
 ```
 
-The `args.name` property <u>must exactly match</u> the snippet name.
+The `args.name` property <u>must exactly match</u> the snippet.
 
 I created the [Markdown Shortcuts extension](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts) to provide shortcuts for all markdown snippets if this is something you want. You can override my selections if you want, read the extension README for more info.
 
@@ -104,4 +104,4 @@ You can read my comprehensive guide on Snippets on FreeCodeCamp: [Visual Studio 
 
 If you are happy with the extension, please star the repo, and leave a review to help others find it. 🌟
 
-You can [buy me a coffee](https://ko-fi.com/roboleary) if you would like to support me to make more great open-source software and tutorials. ☕🙏
+You can [buy me a coffee](https://ko-fi.com/roboleary) if you would like to enable me to make more great open-source software and tutorials. ☕🙏
