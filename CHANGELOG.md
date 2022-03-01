@@ -4,6 +4,16 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.7.5] - 2022-03-01
+
+### Fixed
+
+- In the FAQ section, the wrong command was referenced in the subsection "3) How do I add shortcuts for the snippets?"
+
+## Addded
+
+- Added "5) Where can I learn more about keyboard shortcuts?" to the FAQ.
+
 ## [0.7.4] - 2020-05-23
 
 ### Fixed

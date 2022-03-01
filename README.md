@@ -71,9 +71,9 @@ To insert a snippet, you can just type one of the prefixes in a markdown file, a
 
 Alternatively, you can open the Command Palette (`Ctrl+Shift+P`) and run the command "Insert Snippet", which presents you with a list to choose from.
 
-### 3) How do I add shortcuts for the snippets?
+### 3) How do I add shortcuts for these snippets?
 
-Run the command `Preferences: Open Settings (UI)` to open the keyboard shortcuts config. Add an new object to the array such as this:
+Run the command `Preferences: Open Keyboard Shortcuts (JSON)` to open the keyboard shortcuts config (*keybindings.json*). Add an new object to the array such as this:
 
 ```JSON
 [
@@ -92,13 +92,17 @@ Run the command `Preferences: Open Settings (UI)` to open the keyboard shortcuts
 ]
 ```
 
-The `args.name` property <u>must exactly match</u> the snippet.
+The `args.name` property <u>must exactly match</u> the snippet name.
 
 I created the [Markdown Shortcuts extension](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts) to provide shortcuts for all markdown snippets if this is something you want. You can override my selections if you want, read the extension README for more info.
 
 ### 4) Where can I learn more about snippets?
 
 You can read my comprehensive guide on Snippets on FreeCodeCamp: [Visual Studio Code Snippets – the Definitive VS Code Snippet Guide for Beginners](https://www.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/). It's not just for beginners! 😉
+
+### 5) Where can I learn more about keyboard shortcuts?
+
+You can read my article - [VS Code keyboard-fu: custom keyboard shortcuts that will boost your productivity](https://www.roboleary.net/2022/02/28/vscode-keyboard-fu-custom-keyboard-shortcuts.html).
 
 ## Show gratitude
 
