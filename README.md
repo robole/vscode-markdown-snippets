@@ -52,11 +52,6 @@ The snippets are only active in Markdown files (defined by `markdown` [language 
 
 You can install the [Snippets Ranger extension](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger) to view this list inside VS Code.
 
-## Installation
-
-1. The extension is listed in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=robole.markdown-snippets) and [Open VSX Marketplace](https://open-vsx.org/extension/robole/markdown-snippets) where you can download or install it directly.
-1. From the Command-line: Run the command `code --install-extension robole.markdown-snippets`.
-
 ## FAQ
 
 ### 1) Where do the standard markdown snippets come from?
@@ -104,8 +99,6 @@ You can read my comprehensive guide on Snippets on FreeCodeCamp: [Visual Studio 
 
 You can read my article - [VS Code keyboard-fu: custom keyboard shortcuts that will boost your productivity](https://www.roboleary.net/2022/02/28/vscode-keyboard-fu-custom-keyboard-shortcuts.html).
 
-## Show gratitude
+## Contribute
 
-If you are happy with the extension, please star the repo, and leave a review to help others find it. 🌟
-
-You can [buy me a coffee](https://ko-fi.com/roboleary) if you would like to enable me to make more great open-source software and tutorials. ☕🙏
+**This extension is considered complete and is closed to contributions**. The associated GitHub repository is archived.
